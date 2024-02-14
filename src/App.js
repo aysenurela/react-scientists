@@ -7,9 +7,10 @@ import PersonDetails from "./components/PersonDetails"
 import { data } from "./store/data"
 
 function App() {
+
   return (
     <div className="App">
-      <header><h1>Scientist</h1></header>
+      <header><h1>Scientists</h1></header>
       <section>
         {data.map((person) => (
           <Card>
