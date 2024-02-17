@@ -13,7 +13,7 @@ function App() {
       <header><h1>Scientists</h1></header>
       <section>
         {data.map((person) => (
-          <Card>
+          <Card key={person.id}>
             <h2>{person.name}</h2>
             <Avatar person={person} />
             <PersonDetails {...person} />
