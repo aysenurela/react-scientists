@@ -3,7 +3,13 @@
 // img element should have src and alt attributes
 
 export default function Avatar(props) {    
-    const { person } = props;
-
-    // return ...
+    return (
+        <>
+            <img 
+                className="Avatar"
+                src={person.imageUrl} 
+                alt={person.name}
+            ></img>
+        </>    
+    )
 }
