@@ -3,4 +3,13 @@
     // 1. Person's profession 
     // 2. Person's accomplishment
 
-export default function PersonDetails({ profession, accomplishment }) {}
+export default function PersonDetails({ profession, accomplishment }) {
+  return (
+    <div>
+      <ul>
+        <li>{profession}</li>
+        <li>{accomplishment}</li>
+      </ul>
+    </div>
+  );
+}
