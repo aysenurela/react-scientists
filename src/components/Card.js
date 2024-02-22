@@ -2,4 +2,10 @@
 // renders children inside div wrapper with className 'Card'
 // if there is no children component should return null;
 
-export default function Card() {}
+export default function Card({children})
+{
+return(
+<div className="Card">{children}
+</div>
+);
+}
