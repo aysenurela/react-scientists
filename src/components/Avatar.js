@@ -1,9 +1,8 @@
-// Avatar component takes person object as props
-// returns an img element with className 'Avatar'
-// img element should have src and alt attributes
-
 export default function Avatar(props) {    
     const { person } = props;
-
-    // return ...
+    return(
+        <div>
+            <img src={person.imageUrl} alt="Images" className="Avatar"></img>
+        </div>
+    )
 }
