@@ -6,8 +6,8 @@
 export default function PersonDetails({ profession, accomplishment }) {
   return (
     <ul>
-      <li>{profession}</li>
-      <li>{accomplishment}</li>
+      <li>Profession: {profession}</li>
+      <li>Accomplishment: {accomplishment}</li>
     </ul>
   );
 }
