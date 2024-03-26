@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Scientists 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## React Lab Work
 
-This project is created as a lab work for DESN3037 course
+This project is created as a lab work for react fundamentals course
+- Create a branch with your first and lastname, for example: ayse-ela
+- Update Avatar, Card, PersonDetails components based on given requirements
+   - Details on component requirements are in the component js files as commented out code
+- No need to add styling
+- Create a pull request to ‘main’ branch
+
 Expected UI is attached: 
 <img width="568" alt="UI" src="https://github.com/aysenurela/react-scientists/assets/40861089/07298006-6180-4c05-8528-fa82600296f9">
 
