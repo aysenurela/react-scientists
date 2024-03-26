@@ -2,8 +2,18 @@
 // returns an img element with className 'Avatar'
 // img element should have src and alt attributes
 
-export default function Avatar(props) {    
-    const { person } = props;
+import { keyboard } from "@testing-library/user-event/dist/keyboard";
+import { useLayoutEffect } from "react";
 
-    // return ...
+
+
+export default function Avatar(props) {   
+
+    return (
+        <>
+       <img className="Avatar"
+        src={props.person.imageUrl} 
+        alt={props.person.name} /> 
+       </>
+    )
 }
