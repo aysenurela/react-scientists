@@ -2,4 +2,17 @@
 // renders children inside div wrapper with className 'Card'
 // if there is no children component should return null;
 
-export default function Card() {}
+
+import React from 'react';
+import { data } from '../store/data';
+
+export default function Card({ children }) {
+    
+    if (!children) return null;
+
+    return (
+        <div className="Card">
+            {children}
+        </div>
+    );
+}
