@@ -5,5 +5,11 @@
 export default function Avatar(props) {    
     const { person } = props;
 
-    // return ...
+    return (
+        <img
+            classname = "Avatar"
+            src = {person.imageUrl}
+            alt = "image"
+        />
+    )
 }
