@@ -5,5 +5,9 @@
 export default function Avatar(props) {    
     const { person } = props;
 
-    // return ...
+    return(
+        <div>
+            <img class="Avatar" src={person.imageUrl} alt="picture"></img>
+        </div>
+    );
 }
